@@ -18,20 +18,24 @@ Put the required CSS and JavaScript at the `head` element:
 <script src="jabara.js"></script>
 ```
 
-Add a `js-jabara-title` and `js-jabara-content` classes to your HTML:
+Add a `js-jabara-title` and `js-jabara-content` classes in container element to your HTML:
 
 ```html
-<h1 class="js-jabara-title">
-    [Title]
-</h1>
-<div class="js-jabara-content">
-    <div class="inner">
-        [Content]
-    </div>
+<div class="js-jabara-container">
+    <section class="js-jabara">
+        <h1 class="js-jabara-title">
+            [Title]
+        </h1>
+        <div class="js-jabara-content">
+            <div class="inner">
+                [Content]
+            </div>
+        </div>
+    </section>
 </div>
 ```
 
-Full sample code: [https://kubosho.github.io/jabara](https://kubosho.github.io/jabara)
+Full sample code: [http://codepen.io/kubosho_/pen/ZYRVvO](http://codepen.io/kubosho_/pen/ZYRVvO)
 
 Options
 -------
