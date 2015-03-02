@@ -16,6 +16,7 @@
     "gulp-mocha": "^2.0.0",
     "gulp-typescript": "^2.3.0",
     "intelli-espower-loader": "^0.6.0",
+    "jsdom": "^4.0.1",
     "jshint-stylish": "^1.0.0",
     "merge-stream": "^0.1.7",
     "power-assert": "^0.10.0",

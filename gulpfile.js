@@ -34,7 +34,7 @@ gulp.task("compile", function() {
 //////////////////////////////////////////////////
 
 gulp.task("espower", function() {
-  return gulp.src("./test/*.js")
+  return gulp.src("./test/src/*.js")
     .pipe($.espower())
     .pipe(gulp.dest("./test/espower/"));
 });
@@ -42,7 +42,7 @@ gulp.task("espower", function() {
 //////////////////////////////////////////////////
 
 gulp.task("lint", function() {
-  return gulp.src(["./test/*.js", "./src/*.js"])
+  return gulp.src(["./test/src/*.js", "./src/*.js"])
     .pipe($.jshint())
     .pipe($.jshint.reporter(require("jshint-stylish")))
     .pipe($.jshint.reporter("fail"));
